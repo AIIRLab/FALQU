@@ -13,10 +13,13 @@ Law Stack Exchange is an online Q\&A website for legal domain. It contains varie
 questions and corresponding answers. We have downloaded the raw data from the [Internet Archive](https://archive.org/).
 The 08-Oct-2022 snapshot snapshot is used to build this test collection.
 
-### Generating XML files
+To regenerate the test collection files including the LawPosts.xml, QRELs and Topics run the following command:
 
-### Generating QREL files
-
+```buildoutcfg
+python generate_test_collection_files.py -p /path/to/Posts.xml -l /path/to/PostLinks.xml
+```
+ 
+ where the two parameters are the paths to Posts and PostLinks file from the Internet Archive.
 ## Baseline Systems
-
+Codes for PyTerrier and Sentence-BERT baseline systems are in FalQU_Baseline_Systems.ipynb file.
 
