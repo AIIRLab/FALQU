@@ -1,5 +1,9 @@
 # FALQU: Finding Answers to Legal Questions
 
+<p align="center">
+  <img src="https://github.com/AIIRLab/FALQU/blob/main/FALQU_LOGO.png" />
+</p>
+
 FALQU is a test collection for legal information retrieval. 
 Questions and answers were obtained from Law Stack Exchange, a Q\&A website for legal professionals, students, 
 and others with experience or interest in law.
